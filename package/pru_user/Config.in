@@ -1,0 +1,5 @@
+config BR2_PACKAGE_PRU_USER
+    bool "pru_user"
+    depends on BR2_LINUX_KERNEL
+    help
+        This is test library package for XYZ driver.
